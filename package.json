@@ -1,0 +1,26 @@
+{
+  "name": "api-bitacora",
+  "version": "0.0.1",
+  "description": "API RESTFULL para dar seguimiento a los cacahuates, bichos, usuarios, clientes y algo mas",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "supervisor server.js"
+  },
+  "keywords": [
+    "Bitacora",
+    "Soporte",
+    "NodeJS",
+    "Express",
+    "Mongodb"
+  ],
+  "author": "litoos11",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.5",
+    "moment": "^2.18.1",
+    "mongoose": "^4.11.13",
+    "mongoose-sequence-plugin": "^1.0.5"
+  }
+}
